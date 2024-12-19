@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+        <!-- Add your listener class here -->
+        <listener class-name="EGIndia.testUtility.TestUtil2_Listeners"/>
+    </listeners>
+  <test thread-count="5" name="EGTestValidLogin">
+    <classes>      
+      <class name="EGIndia.testCases.EgTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="EGTestInvalidLogin">
+    <classes>      
+      <class name="EGIndia.testCases.InvalidLogins"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

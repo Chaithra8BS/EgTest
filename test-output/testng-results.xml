@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-19T10:49:25 IST" name="Suite" finished-at="2024-12-19T10:49:40 IST" duration-ms="14875">
+    <groups>
+    </groups>
+    <test started-at="2024-12-19T10:49:25 IST" name="EGTestValidLogin" finished-at="2024-12-19T10:49:36 IST" duration-ms="10393">
+      <class name="EGIndia.testCases.EgTest">
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:25 IST" name="initialzeDriver" finished-at="2024-12-19T10:49:27 IST" duration-ms="1446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeDriver -->
+        <test-method signature="addProducttoBasket(java.util.HashMap)[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:27 IST" name="addProducttoBasket" data-provider="getData" finished-at="2024-12-19T10:49:28 IST" duration-ms="1571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProducttoBasket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:28 IST" name="tearDown" finished-at="2024-12-19T10:49:29 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:29 IST" name="initialzeDriver" finished-at="2024-12-19T10:49:30 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeDriver -->
+        <test-method signature="addProducttoBasket(java.util.HashMap)[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:30 IST" name="addProducttoBasket" data-provider="getData" finished-at="2024-12-19T10:49:31 IST" duration-ms="1477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, username=visual_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProducttoBasket -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:31 IST" name="tearDown" finished-at="2024-12-19T10:49:31 IST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:31 IST" name="initialzeDriver" finished-at="2024-12-19T10:49:32 IST" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeDriver -->
+        <test-method signature="validLogin(java.util.HashMap)[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:32 IST" name="validLogin" data-provider="getData" finished-at="2024-12-19T10:49:33 IST" duration-ms="1209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, username=standard_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:33 IST" name="tearDown" finished-at="2024-12-19T10:49:33 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:33 IST" name="initialzeDriver" finished-at="2024-12-19T10:49:34 IST" duration-ms="798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeDriver -->
+        <test-method signature="validLogin(java.util.HashMap)[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:34 IST" name="validLogin" data-provider="getData" finished-at="2024-12-19T10:49:35 IST" duration-ms="1096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=secret_sauce, username=visual_user}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EGIndia.testCases.EgTest@58326051]" started-at="2024-12-19T10:49:35 IST" name="tearDown" finished-at="2024-12-19T10:49:36 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EGIndia.testCases.EgTest -->
+    </test> <!-- EGTestValidLogin -->
+    <test started-at="2024-12-19T10:49:36 IST" name="EGTestInvalidLogin" finished-at="2024-12-19T10:49:40 IST" duration-ms="4162">
+      <class name="EGIndia.testCases.InvalidLogins">
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:EGIndia.testCases.InvalidLogins@386f0da3]" started-at="2024-12-19T10:49:36 IST" name="initialzeDriver" finished-at="2024-12-19T10:49:37 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeDriver -->
+        <test-method signature="InvalidLogin()[pri:0, instance:EGIndia.testCases.InvalidLogins@386f0da3]" started-at="2024-12-19T10:49:37 IST" name="InvalidLogin" finished-at="2024-12-19T10:49:38 IST" duration-ms="1139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EGIndia.testCases.InvalidLogins@386f0da3]" started-at="2024-12-19T10:49:38 IST" name="tearDown" finished-at="2024-12-19T10:49:38 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initialzeDriver()[pri:0, instance:EGIndia.testCases.InvalidLogins@386f0da3]" started-at="2024-12-19T10:49:38 IST" name="initialzeDriver" finished-at="2024-12-19T10:49:39 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialzeDriver -->
+        <test-method signature="InvalidLogin2()[pri:0, instance:EGIndia.testCases.InvalidLogins@386f0da3]" started-at="2024-12-19T10:49:39 IST" name="InvalidLogin2" finished-at="2024-12-19T10:49:40 IST" duration-ms="1098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:EGIndia.testCases.InvalidLogins@386f0da3]" started-at="2024-12-19T10:49:40 IST" name="tearDown" finished-at="2024-12-19T10:49:40 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- EGIndia.testCases.InvalidLogins -->
+    </test> <!-- EGTestInvalidLogin -->
+  </suite> <!-- Suite -->
+</testng-results>

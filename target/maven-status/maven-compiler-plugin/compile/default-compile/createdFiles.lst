@@ -1,0 +1,5 @@
+EGIndia\PageObjects\BasketPage.class
+EGIndia\PageObjects\LoginPage.class
+EGIndia\PageObjects\ProductCatalouge.class
+EGIndia\AbstractComponents\utilitycomponent.class
+EGIndia\PageObjects\HomePage.class
