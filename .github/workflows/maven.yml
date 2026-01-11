@@ -11,7 +11,7 @@ on:
 
 jobs: #we can have multiple jobs
   build:
-    runs-on: ubuntu-latest  #shared runner
+    runs-on: windows-latest    #ubuntu-latest  #shared runner
 
     steps:
     - uses: actions/checkout@v4
